@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <!-- CDN Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Arquivo de Estilos CSS Principal -->
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Barra de Navegação -->
+    <header id="header">
+        <nav class="navbar">
+            <img src="src/images/logo Starbucks.png" alt="Logo Starbucks" class="logo">
+            
+            <!-- Botão do Menu Mobile (Hambúrguer) -->
+            <button class="btn btn-mobile" id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Links de Navegação -->
+            <ul id="navbar-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#trending">Em alta</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#products">Novidades</a></li>
+            </ul>
+
+            <!-- Botão de Contato (Desktop) -->
+            <a href="#" class="btn btn-def">Contatar</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main id="container">
+        
+        <!-- Seção Home -->
+        <section id="home">
+            <img src="src/images/detail.png" alt="Starbucks Drink" class="home-image">
+            <h1 class="home-title">Mais que café, uma <span>experiência.</span></h1>
+            <p class="home-description">Descubra cafés icônicos, sabores únicos e a energia perfeita para cada parte do seu dia.</p>
+            
+            <div class="home-actions">
+                <a href="#" class="btn btn-def">Conhecer</a>
+                <a href="#" class="btn btn-outlined">Contatar</a>
+            </div>
+        </section>
+
+        <!-- Seção Em Alta (Trending) -->
+        <section id="trending">
+            <h2 class="title">Em alta</h2>
+            <div class="trending-cards">
+                <!-- Card 1 -->
+                <div class="trending-card">
+                    <img src="src/images/trending/card 1.png" alt="Starbucks Drink" class="trending-image">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frappuccino <span>Avelã</span>
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="trending-card">
+                    <img src="src/images/trending/card 2.png" alt="Starbucks Drink" class="trending-image">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frappuccino <span>Pistache</span>
+                    </p>
+                </div>
+                <!-- Card 3 -->
+                <div class="trending-card">
+                    <img src="src/images/trending/card 3.png" alt="Starbucks Drink" class="trending-image">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frappuccino <span>Morango</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós (About) -->
+        <section id="about">
+            <h2 class="title">Sobre nós</h2>
+            <div class="about-content">
+                <img src="src/images/about/about-us.png" alt="Sobre nós" class="about-image">
+                
+                <div class="about-info">
+                    <h3>Nossa <span>história</span></h3>
+                    <p>Nascemos da paixão por proporcionar momentos únicos através de grãos selecionados e receitas exclusivas.</p>
+                </div>
+
+                <div class="about-info">
+                    <h3>Nosso <span>propósito</span></h3>
+                    <p>Conectar pessoas através do aroma e do sabor, garantindo o nosso compromisso com a sustentabilidade e qualidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Novidades / Produtos -->
+        <section id="products">
+            <h2 class="title">Novidades</h2>
+            <div class="products-cards">
+                <!-- Produto 1 -->
+                <div class="product-card">
+                    <img src="src/images/products/1.png" alt="Moka" class="product-image">
+                    <div class="product-content">
+                        <h3>Moka <span>Chocolate</span></h3>
+                    </div>
+                </div>
+                <!-- Produto 2 -->
+                <div class="product-card">
+                    <img src="src/images/products/2.png" alt="Morango" class="product-image">
+                    <div class="product-content">
+                        <h3>Frappe <span>Morango</span></h3>
+                    </div>
+                </div>
+                <!-- Produto 3 -->
+                <div class="product-card">
+                    <img src="src/images/products/3.png" alt="Café" class="product-image">
+                    <div class="product-content">
+                        <h3>Café <span>Gelado</span></h3>
+                    </div>
+                </div>
+                <!-- Produto 4 -->
+                <div class="product-card">
+                    <img src="src/images/products/4.png" alt="Manga" class="product-image">
+                    <div class="product-content">
+                        <h3>Chá <span>Manga</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 <i class="fa-regular fa-copyright"></i> Feito por Larissa Kich</p>
+    </footer>
+
+    <!-- Arquivo de Script JS -->
+    <script src="src/js/script.js"></script>
+</body>
+</html>
